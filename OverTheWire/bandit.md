@@ -76,7 +76,7 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 and then just ls for the dahed file ( the ```-``` one) and just ``` cat - ``` .
 
-It doesn't work? well if you look at the helpful materials [here](https://overthewire.org/wargames/bandit/bandit2.html) they hint that that particular filename can create some problems. 
+It doesn't work? well if you look at the helpful materials [here](https://overthewire.org/wargames/bandit/bandit2.html) they hint that this particular filename can create some problems. 
 So what do we do here?
 
 The command ```cat``` normally sees the string ```-``` as a synonym for ```stdin``` (standard input) so if you try
