@@ -89,4 +89,12 @@ it will print out every line you type.
 
 So we need to find a way to tell cat that our filename ```-``` refers to a file and not to ```stdin```. How do we do it? We need to alter the string so when cat start it reads a string that still refers to our file but won't be a synonym of ```stdin```. A way to do it is to change the argument from ``` -``` to ```./-``` in this way we give a path to the file we desire getting around the _"synonym problem"_
 
+With the right command that will be ```cat ./-``` the output is
+
+```bash
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+```
+
+And that is the researched password
+
 <!-- markdownlint-enable MD033 -->
