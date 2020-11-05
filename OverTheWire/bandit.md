@@ -97,4 +97,28 @@ CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
 And that is the researched password
 
+
+### level 3
+
+In this instance when we log into the server we'll find a file called
+
+```
+spaces in this filename
+```
+
+the problem here is that linux uses particular escapes for representing spaces but there is a trick. As always we will use the ```cat``` command and after that we can type the first letters of the file and then we can press the TAB button in order to autofill the name of the file in order to get something like this
+
+```
+cat spaces\ in\ this\ filename
+```
+
+With this we can see that Linux systems uses the ```\``` character followed by a space in order to represent spaces of a filename. After the execution of the command the password will be
+
+```
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+```
+
+And now we can go to level 4
+
+
 <!-- markdownlint-enable MD033 -->
